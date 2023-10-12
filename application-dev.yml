@@ -1,3 +1,7 @@
+Spring:
+  application:
+    name: USER-SERVICE-DEV
+
 eureka:
   instance:
     prefer-ip-address: true
@@ -6,3 +10,5 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+
